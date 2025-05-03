@@ -1,0 +1,76 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #300355;
+    color: #080606;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #533030;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #070301;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #1e0ad1;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #22b30f;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #2a6d3e;
+  }
+  
+  audio {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  
